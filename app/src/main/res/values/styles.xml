@@ -1,0 +1,59 @@
+<!--
+   Copyright 2022 Google LLC
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+
+  <!--
+      Base application theme, dependent on API level. This theme is replaced
+      by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+  -->
+
+
+  <!-- Application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorControlHighlight">#fd4381</item>
+    <item name="colorControlActivated">#ffffff</item>
+  </style>
+
+  <style name="select_place_location">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="location">
+    <item name="android:textSize">15sp</item>
+    <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="line">
+    <item name="android:textSize">15sp</item>
+    <item name="android:textColor">#ACD2FF</item>
+  </style>
+
+  <style name="SpinnerDivideStyle" parent="android:style/Widget.ListView.DropDown">
+    <item name="android:divider">#000000</item> <!-- divider 색 -->
+    <item name="android:dividerHeight">2dp</item> <!-- divider 높이 -->
+  </style>
+
+  <style name="SpinnerTheme" parent="AppTheme">
+    <item name="android:dropDownListViewStyle">@style/SpinnerDivideStyle</item>
+  </style>
+
+</resources>

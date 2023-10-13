@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_image"
+    tools:context=".Home_Activity">
+
+    <View
+        android:id="@+id/phpl_photo"
+        android:layout_width="327dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/phpl_photo" />
+
+
+    <View
+        android:id="@+id/find"
+        android:layout_width="254dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/find" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:text="photo spot"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="490dp"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:background="@drawable/round_button"
+        />
+
+    <Button
+        android:id="@+id/community_button"
+        android:text="community"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="565dp"
+        android:background="@drawable/round_button"
+        />
+
+
+</FrameLayout>
